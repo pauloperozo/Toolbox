@@ -5,6 +5,7 @@ Ambos servicios están orquestados utilizando Docker Compose para facilitar el d
 
 ## Estructura del Proyecto
 
+```
 Toolbox/
 ├── Backend/
 │
@@ -21,6 +22,7 @@ Toolbox/
 │
 └── src/
 └── docker-compose.yml
+```
 
 ## Requisitos
 
