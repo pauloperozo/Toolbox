@@ -82,6 +82,32 @@ $ npm run test
 $ npm run test:cov
 ```
 
+## Endpoints
+
+### `GET files/data`
+
+Este endpoint devuelve un listado de todos los files con su respectivo contenido.
+
+#### Parámetros
+fileName : ?fileName={{file}}
+
+#### Respuesta
+
+- `200 OK` si la solicitud se completó correctamente.
+- Un array de objetos JSON que representan los files.
+
+### `GET files/list`
+
+Este endpoint devuelve un listado de todos los file.
+
+#### Parámetros
+Ninguno
+
+#### Respuesta
+
+- `200 OK` si la solicitud se completó correctamente.
+- Un array de objetos JSON que representan los files.
+
 ## Frontend
 
 El frontend está desarrollado utilizando Webpack/React. Puedes encontrar el código fuente en el directorio Frontend/. El Dockerfile para este servicio se encarga de instalar las dependencias y exponer el puerto 3001.
@@ -106,3 +132,15 @@ $ npm run test
 # test coverage
 $ npm run test:cov
 ```
+
+## Developer
+
+- Author - paulo perozo
+- Website - https://www.linkedin.com/in/paulo-perozo-0738a4240/
+- Twitter - https://twitter.com/PauloPerozo
+
+<p align="center">
+  <a href="" target="blank"><img src="https://www.artistapirata.com/wp-content/uploads/2018/12/programas-full-linux-descargar-programas-linux-300x181.jpg" width="200" alt="zzzz" /></a>
+</p>
+
+
