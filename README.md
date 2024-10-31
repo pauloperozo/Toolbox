@@ -1,10 +1,11 @@
 # Multi-Project Docker Setup
 
-Este proyecto contiene dos servicios: un backend API en Express y un frontend utilizando Webpack. Ambos servicios están orquestados utilizando Docker Compose para facilitar el desarrollo y despliegue.
+Este proyecto contiene dos servicios: un backend API en Express y un frontend utilizando Webpack/React.
+Ambos servicios están orquestados utilizando Docker Compose para facilitar el desarrollo y despliegue.
 
 ## Estructura del Proyecto
 
-Proyecto/
+Toolbox/
 ├── Backend/
 │
 ├── Dockerfile
@@ -30,9 +31,9 @@ Proyecto/
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/proyecto.git
+   git clone git@github.com:pauloperozo/Toolbox.git
    ```
-2. `cd proyecto`
+2. `cd Toolbox`
 
 3. `docker-compose build`
 
