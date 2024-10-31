@@ -3,7 +3,7 @@
 </p>
 
 
-# Multi-Project Docker Setup
+# -Prueba Tecnica Toolbox
 
 Este proyecto contiene dos servicios: un backend API en Express y un frontend utilizando Webpack/React.
 Ambos servicios están orquestados utilizando Docker Compose para facilitar el desarrollo y despliegue.
