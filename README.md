@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="200" alt="Nest Logo" /></a>
+</p>
+
+
 # Multi-Project Docker Setup
 
 Este proyecto contiene dos servicios: un backend API en Express y un frontend utilizando Webpack/React.
@@ -56,9 +61,48 @@ Esto levantará ambos servicios y los expondrá en los siguientes puertos:
 
 El backend está desarrollado utilizando Express. Puedes encontrar el código fuente en el directorio Backend/. El Dockerfile para este servicio se encarga de instalar las dependencias y exponer el puerto 3000.
 
-**Nota**: en caso de querer correrlo en local: 1.`npm install` 2.`npm start`
+**Nota**: en caso de querer correrlo en local: 
+
+### Instalación
+
+```bash
+# install
+$ npm install
+# run
+$ npm start
+```
+
+### Test
+
+```bash
+# unit tests
+$ npm run test
+
+# test coverage
+$ npm run test:cov
+```
 
 ## Frontend
 
 El frontend está desarrollado utilizando Webpack/React. Puedes encontrar el código fuente en el directorio Frontend/. El Dockerfile para este servicio se encarga de instalar las dependencias y exponer el puerto 3001.
-**Nota**: en caso de querer correrlo en local: 1.`npm install` 2.`npm start`
+
+**Nota**: en caso de querer correrlo en local: 
+
+### Instalación
+
+```bash
+# install
+$ npm install
+# run
+$ npm start
+```
+
+### Test
+
+```bash
+# unit tests
+$ npm run test
+
+# test coverage
+$ npm run test:cov
+```
